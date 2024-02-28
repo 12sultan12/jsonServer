@@ -21,6 +21,8 @@ function Header() {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const navigate = useNavigate();
 
+  // JavaScript 16 better
+
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
